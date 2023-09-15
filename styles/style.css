@@ -5,3 +5,13 @@ body{
 #text-center{
     text-align: center;
 }
+.team-section{
+    background-image: url("/images/banner1.png");
+    background-repeat: no-repeat;
+}
+@media screen and (max-width:576px) {
+    .team-section{background-image: none;
+    text-align: center;
+    width: auto;
+    }
+}
